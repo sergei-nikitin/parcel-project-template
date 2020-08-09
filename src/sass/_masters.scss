@@ -1,6 +1,6 @@
 .container.team {
   margin: 0 auto;
-  width: 1200px;
+  width: 1280px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -36,6 +36,7 @@
 }
 
 .title-subtitle {
+  position: relative;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
@@ -44,6 +45,17 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #303030;
+  padding-left: 135px;
+  margin-bottom: 20px;
+}
+
+.line {
+  height: 60px;
+  width: 1px;
+  transform: rotate(90deg);
+  position: absolute;
+  top: -27px;
+  left: 80px;
 }
 
 .section-list .item {
