@@ -1,4 +1,3 @@
-
 .advantages-content-container {
   @media screen and (min-width: $desktop-breakpoint) {
     display: flex;
@@ -31,11 +30,20 @@
 .list-advantages {
   display: flex;
   flex-wrap: wrap;
+
+  @media screen and (min-width: $tablet-breakpoint) {
+    width: 480px;
+  }
+
+  @media scree and (min-width: $desktop-breakpoint) {
+    width: 400px;
+  }
 }
 
 .item-advantages {
   display: flex;
   flex-direction: column;
+  height: 133px;
   margin-bottom: 30px;
 
   background-color: #f7f7f7;
@@ -46,7 +54,7 @@
   @media screen and (max-width: 479px) {
     padding: 15px;
     width: calc((100% - 4 * 15px) / 2);
-    height: 133px;
+    // height: 133px;
     margin: 15px;
   }
 
@@ -90,4 +98,3 @@
 
   color: #303030;
 }
-
