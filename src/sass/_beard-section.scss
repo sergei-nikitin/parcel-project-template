@@ -2,12 +2,12 @@
   margin: 0px auto 0px;
 
   @media screen and (max-width: 479px) {
-    padding: 42px 15px;
+    padding: 84px 15px;
   }
 
   @media screen and (min-width: $mobile-breakpoint) {
     max-width: $mobile-breakpoint;
-    padding: 42px 15px;
+    padding: 84px 15px;
   }
 
   @media screen and (min-width: $tablet-breakpoint) {
